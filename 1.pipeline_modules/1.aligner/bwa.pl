@@ -19,4 +19,4 @@ my $umi='none';						# $umi taking information from individual UMI information: 
 my $seq_type='capture';					# $umi taking information from Seq_type: capture,amplicon, wgs, lcwgs, umi or cfDNA
 my $run_type ='none'; 					# 0 for non-umi run, 1 for umi run;
 my $args = scalar(@ARGV);
-my $help;
+my $run_type ="none"; 
