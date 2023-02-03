@@ -3,12 +3,12 @@ use Getopt::Long;
 
 # variables needed:
 my $output_script = '';					# path to write the bwa job script
-my $num_cpu = 4; 					# default number of cpus
+my $num_cpu = 6; 					# default number of cpus
 my $ref_fasta = '';					# path to reference fasta
 my $analysis_dir = '';					# path to analysis folder
 my $fastq_dir = '';					# path to fastq folder
 my $samp_id = '';					# sample ID
-my $seq_plat = 'Illumina';				# platform of sequencing, default:illumina
+			# platform of sequencing, default:illumina
 my $barcode_seq = 'NNNNNNN'; 				# barcode seq for RGPU=CTTGTA
 my $java_tmp = '';					# temp folder for java
 my $rm_dups='true';					# remove PCR duplicates

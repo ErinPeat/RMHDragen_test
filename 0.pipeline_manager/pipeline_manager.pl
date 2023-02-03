@@ -1,5 +1,5 @@
 # These are the basic set of options but we will probably need to make evrything in a resources file settable via additional options
-my $resourcefile = "/data/resources_GRCh39.vm.txt";
+my $resourcefile = "/data/resources_GRCh38.vm.txt";
 my $samples = undef;
 my $analyses = undef;
 my $analyses_cmd='';
