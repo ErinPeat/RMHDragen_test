@@ -3,7 +3,7 @@ use Getopt::Long;
 
 # variables needed:
 my $output_script = '';					# path to write the bwa job script
-my $num_cpu = 4; 					# default number of cpus
+my $num_cpu = 6; 					# default number of cpus
 my $ref_fasta = '';					# path to reference fasta
 my $analysis_dir = '';					# path to analysis folder
 my $fastq_dir = '';					# path to fastq folder
